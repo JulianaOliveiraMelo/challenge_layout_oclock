@@ -1,0 +1,140 @@
+/* généralités */
+
+body {
+    font-family: Raleway, sans-serif;
+    font-size: 16px;
+}
+
+/* entête */
+
+#header {
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 400;
+    width: 100%;
+}
+
+#title {
+    font-size: 2em;
+    background-color: #c80000;
+    margin: 0;
+    padding: .5em;
+    font-weight: 800;
+}
+
+#subtitle {
+    font-size: .4em;
+    font-weight: 700;
+}
+
+#selection {
+    font-size: 1.15em;
+    background-color: #666;
+    margin: 0;
+    padding: .3em;
+    font-weight: 400;
+    text-align: center;
+}
+
+#selection strong {
+    font-weight: normal;
+    font-style: italic;
+}
+
+/* contenu */
+
+#content {
+    margin-top: 101px;
+    padding: 1em 5%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.figurine {
+    width: 30%;
+    border: 1px solid #ccc;
+    padding: .5em;
+    margin: 1.6666%;
+    box-sizing: border-box;
+    transition: all 1s;
+}
+
+.figurine:hover {
+    transform: scale(1.1);
+    border-color: #333;
+    box-shadow: 3px 1px 2px rgba(0,0,0,0.75);
+}
+
+.figurine-sale {
+    position: relative;
+}
+
+.figurine .illustration {
+    width: 100%;
+}
+
+.category {
+    text-transform: uppercase;
+    color: #ccc;
+    border-bottom: 1px solid #ccc;
+    font-weight: bold;
+    font-size: .7em;
+    padding: .3em;
+    margin: .3em 0;
+}
+
+.add-to-cart {
+    background-color: #c80000;
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5em 1em;
+    font-size: .8em;
+}
+
+.price {
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.old-price {
+    font-weight: 400;
+}
+
+.sale-price {
+    text-decoration: none;
+}
+
+.sale {
+    background-color: #aaa;
+    color: white;
+    font-weight: bold;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    font-size: 1.2em;
+    text-align: center;
+    line-height: 70px;
+    border: 4px solid #ddd;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    transition: background-color 2s;
+}
+
+.figurine:hover .sale {
+    background-color: #c80000;
+}
+
+/* pied */
+
+#footer {
+    background-color: #666;
+    text-align: center;
+    padding: 1em;
+    color: white;
+    font-size: .8em;
+  }

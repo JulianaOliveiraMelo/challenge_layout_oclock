@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>oFig</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,400i,700,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header id="header">
+        <h1 id="title">oFig <span id="subtitle">Figurines et statuettes</span></h1>
+        <h2 id="selection">Figurines sur le thème <strong>Final Fantasy</strong></h2>
+    </header>
+    <main id="content">
+        <!-- Emmet: article.figurine>img.illustration+(section.info>h4.category+h3.name+p.description)+a.add-to-cart{Ajouter au panier }>span.price -->
+        <article class="figurine">
+            <img class="illustration" src="ressources/img/aerith.png" alt="Aerith Gainsborough - figurine">
+            <section class="info">
+                <h4 class="category">Final Fantasy Crisis Core</h4>
+                <h3 class="name">Aerith Gainsborough</h3>
+                <p class="description">Figurine de 7 pouces - livrée avec son packaging</p>
+            </section>
+            <a href="" class="add-to-cart">Ajouter au panier <span class="price">74,90 €</span></a>
+        </article>
+        <article class="figurine figurine-sale">
+            <img class="illustration" src="ressources/img/cloud.png" alt="Cloud Strife - figurine">
+            <section class="info">
+                <h4 class="category">Final Fantasy VII</h4>
+                <h3 class="name">Cloud Strife Remake</h3>
+                <p class="description">Figurine de 8 pouces - livrée avec son packaging</p>
+            </section>
+            <a href="" class="add-to-cart">
+                Ajouter au panier 
+                <span class="price">
+                    <del class="old-price">74,90  €</del>
+                    <ins class="sale-price">59 €</ins>
+                </span>
+            </a>
+            <div class="sale">
+                -20%
+            </div>
+        </article>
+        <article class="figurine figurine-sale">
+            <img class="illustration" src="ressources/img/tifa.png" alt="Tifa Lockhart - figurine">
+            <section class="info">
+                <h4 class="category">Final Fantasy Advent Children</h4>
+                <h3 class="name">Tifa Lockhart</h3>
+                <p class="description">Figurine de 7 pouces - livrée avec son packaging</p>
+            </section>
+            <a href="" class="add-to-cart">
+                Ajouter au panier 
+                <span class="price">
+                    <del class="old-price">98,90 €</del>
+                    <ins class="sale-price">69 €</ins>
+                </span>
+            </a>
+            <div class="sale">
+                -30%
+            </div>
+        </article>
+        <article class="figurine">
+            <img class="illustration" src="ressources/img/vincent.png" alt="Vincent Valentine - figurine">
+            <section class="info">
+                <h4 class="category">Final Fantasy Dirge of Cerberus</h4>
+                <h3 class="name">Vincent Valentine</h3>
+                <p class="description">Figurine de 7 pouces - livrée avec son packaging</p>
+            </section>
+            <a href="" class="add-to-cart">Ajouter au panier <span class="price">74,90 €</span></a>
+        </article>
+        <article class="figurine">
+            <img class="illustration" src="ressources/img/sephiroth.png" alt="Sephiroth - figurine">
+            <section class="info">
+                <h4 class="category">Final Fantasy VII</h4>
+                <h3 class="name">Sephiroth</h3>
+                <p class="description">Figurine de 10 pouces - livrée avec son packaging</p>
+            </section>
+            <a href="" class="add-to-cart">Ajouter au panier <span class="price">113,90 €</span></a>
+        </article>
+    </main>
+    <footer id="footer">
+        <p>oFig - toutes les images sont sous copyright SquareEnix</p>
+    </footer>
+</body>
+</html>
